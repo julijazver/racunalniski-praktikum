@@ -35,7 +35,7 @@ body {
 }
 
 .slika {
-    text-size-adjust: 0.93m;
+    font-size: 0.93m;
     width: 40%;
     text-align: left;
     float: right;
@@ -45,6 +45,15 @@ body {
 .slika img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
+}
+
+.slika p:last-child {
+    font-size: 0.8em;
+}
+
+b::before {
+    content: ':)';
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
