@@ -1,3 +1,13 @@
+h1{
+    color: #330066
+}
+h2{
+    margin-top: 2em;
+    border-top-width: 1px;
+    border-top-color: #AAAAAA;
+    border-top-style: solid;
+    padding-top: 0.5em;
+}
 body {
     /*  Barva pisave pod značko oz. oznako  */
     color: #333333; 
@@ -17,6 +27,24 @@ body {
     margin: auto;
     /*  Obojestranska poravnava besedila    */
     text-align: justify;
+}
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika {
+    text-size-adjust: 0.93m;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
