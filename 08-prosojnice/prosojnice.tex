@@ -5,8 +5,15 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[slovene]{babel}
-
+\usepackage{tikz}
+\usetikzlibrary{math}
+\usepackage{pgfplots}
+\usepgfplotslibrary{external}
 \usepackage{predavanja}
+\usepackage{array}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
 % Naloga 1.3.2: vključite paket `predavanja'.
 
 % \usepackage{predavanja}
@@ -59,9 +66,12 @@
 \input{prosojnice/3-analiza-logika-mnozice.tex}
 
 \section{Stolpci in slike}
+\input{prosojnice/4-stolpci-slike.tex}
 
 \section{Paket \texttt{beamer} in tabele}
+\input{prosojnice/5-beamer-tabele.tex}
 
 \section[Matematika, 2. del\\\large{Zaporedja, algebra, grupe}]{Matematika, 2. del}
+\input{prosojnice/6-zaporedja-algebra-grupe.tex}
 
 \end{document}
